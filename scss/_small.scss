@@ -29,10 +29,11 @@ header {
     column-gap: $gutter;
     align-items: center; //vertically
     padding: .5rem $gutter;
-    span {
+    .phone {
         font-size: 1.6rem;
         font-weight: $lightWeight;
         color: $primaryColor;
+        text-decoration: none;
     }
 } // end header
 
